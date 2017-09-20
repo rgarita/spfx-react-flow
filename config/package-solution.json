@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-flow-client-side-solution",
+    "id": "b50be710-ea0b-479b-9cc1-8d5c62ec2075",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-flow.sppkg"
+  }
+}

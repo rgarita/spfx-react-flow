@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-flow-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactFlow/ReactFlowWebPart.js",
+          "manifest": "./src/webparts/reactFlow/ReactFlowWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactFlowWebPartStrings": "lib/webparts/reactFlow/loc/{locale}.js"
+  }
+}
